@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodvignette",
+  "version": "${version}",
+  "name": "Blood Vignette",
+  "description": "Beautiful pulsing blood-red vignette and warning icon when your health is low. Configurable threshold, heart-beat pulse and sound.",
+  "authors": [
+    "Evga314"
+  ],
+  "contact": {
+    "homepage": "https://t.me/Evga314mods",
+    "sources": "https://github.com/example/bloodvignette",
+    "issues": "https://github.com/example/bloodvignette/issues"
+  },
+  "license": "CC-BY-NC-4.0",
+  "icon": "assets/bloodvignette/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.evga314.bloodvignette.BloodVignetteMod"
+    ],
+    "client": [
+      "com.evga314.bloodvignette.client.BloodVignetteClient"
+    ],
+    "modmenu": [
+      "com.evga314.bloodvignette.config.BloodVignetteModMenu"
+    ]
+  },
+  "mixins": [
+    "bloodvignette.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+      }
+    }
+  }
+}
