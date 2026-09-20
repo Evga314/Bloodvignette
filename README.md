@@ -45,6 +45,4 @@ You may share and adapt the mod, but **commercial use by third parties is prohib
 - Textures: hand-processed free resources
 - Sound: heartbeat sound from open sources
 =======
-# Bloodvignette
-Minecraft fabric mod with beautiful pulsing blood-red vignette and warning icon when your health is low. Configurable threshold, heart-beat pulse and sound.
->>>>>>> 389cd77091aeea1feeeb11e43384f4459a3d2072
+#
